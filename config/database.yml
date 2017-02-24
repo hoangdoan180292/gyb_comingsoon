@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+
+development:
+  <<: *default
+  database: gyb_comingsoon_development
+
+test:
+  <<: *default
+  database: gyb_comingsoon_test
+
+production:
+  <<: *default
+  database: gyb_comingsoon_production
