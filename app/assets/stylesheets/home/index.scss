@@ -1,5 +1,48 @@
 #home-index-container {
-  img {
+  #banner {
     width: 100%;
+    height: 500px;
+    background: url(image_path("banner.png")) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #content-wrap {
+    margin-top: 50px;
+    margin-bottom: 73px;
+    padding: 63px 50px 70px;
+    background-color: #fff;
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      text-align: center;
+      color: #163e94;
+      margin-bottom: 30px;
+    }
+
+    .content {
+      font-size: 18px;
+      line-height: 20px;
+      color: #163e94;
+      text-align: center;
+    }
+
+    .c_row {
+      margin-bottom: 38px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .bold {
+      font-weight: 700;
+    }
   }
 }

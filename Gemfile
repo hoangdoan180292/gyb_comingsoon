@@ -16,6 +16,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'slim'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -29,5 +30,3 @@ group :development do
   gem 'html2slim'
   gem 'mina', '~> 0.3.8'
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
